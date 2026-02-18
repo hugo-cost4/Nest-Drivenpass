@@ -58,6 +58,85 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Folders and Files
+
+# 📁 Estrutura do Projeto
+
+NEST-DRIVENPASS/
+│
+├── prisma/
+│   ├── migrations/
+│   ├── schema.prisma
+│   └── seed.ts
+│
+├── src/
+│   ├── auth/
+│   │   ├── dto/
+│   │   │   └── auth.dto.ts
+│   │   ├── auth.controller.ts
+│   │   ├── auth.module.ts
+│   │   └── auth.service.ts
+│   │
+│   ├── cards/
+│   │   ├── dto/
+│   │   │   └── cards.dto.ts
+│   │   ├── cards.controller.ts
+│   │   ├── cards.module.ts
+│   │   ├── cards.repository.ts
+│   │   └── cards.service.ts
+│   │
+│   ├── credentials/
+│   │   ├── dto/
+│   │   │   └── credential.dto.ts
+│   │   ├── credentials.controller.ts
+│   │   ├── credentials.module.ts
+│   │   ├── credentials.repository.ts
+│   │   └── credentials.service.ts
+│   │
+│   ├── decorators/
+│   │   └── user.decorator.ts
+│   │
+│   ├── guard/
+│   │   └── auth.guard.ts
+│   │
+│   ├── notes/
+│   │   ├── dto/
+│   │   │   └── notes.dto.ts
+│   │   ├── notes.controller.ts
+│   │   ├── notes.module.ts
+│   │   ├── notes.repository.ts
+│   │   └── notes.service.ts
+│   │
+│   ├── prisma/
+│   │   ├── prisma.module.ts
+│   │   └── prisma.service.ts
+│   │
+│   ├── users/
+│   │   ├── users.module.ts
+│   │   ├── users.repository.ts
+│   │   └── users.service.ts
+│   │
+│   ├── app.controller.spec.ts
+│   ├── app.controller.ts
+│   ├── app.module.ts
+│   ├── app.service.ts
+│   └── main.ts
+│
+├── test/
+│
+├── .env
+├── .env.test
+├── .eslintrc.js
+├── .gitignore
+├── .prettierrc
+├── README.md
+├── nest-cli.json
+├── package.json
+├── package-lock.json
+├── tsconfig.build.json
+└── tsconfig.json
+
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
