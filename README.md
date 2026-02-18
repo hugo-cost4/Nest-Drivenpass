@@ -61,7 +61,7 @@ $ npm run test:cov
 ## Folders and Files
 
 # 📁 Estrutura do Projeto
-
+```
 NEST-DRIVENPASS/
 │
 ├── prisma/
@@ -127,7 +127,7 @@ NEST-DRIVENPASS/
 ├── package-lock.json
 ├── tsconfig.build.json
 └── tsconfig.json
-
+```
 
 ## Support
 
