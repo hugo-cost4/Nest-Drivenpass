@@ -99,14 +99,6 @@ NEST-DRIVENPASS/
 │   ├── guard/
 │   │   └── auth.guard.ts
 │   │
-│   ├── notes/
-│   │   ├── dto/
-│   │   │   └── notes.dto.ts
-│   │   ├── notes.controller.ts
-│   │   ├── notes.module.ts
-│   │   ├── notes.repository.ts
-│   │   └── notes.service.ts
-│   │
 │   ├── prisma/
 │   │   ├── prisma.module.ts
 │   │   └── prisma.service.ts
